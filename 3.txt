@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class MyClass {
+  public static void main(String args[]) {
+    
+  HashMap girls = new HashMap();
+  
+  girls.put("first", "Yuliya");
+  girls.put("second", "Inna");
+  girls.put("third", "Tanya");
+  
+  girls.remove("second");
+  
+  
+  System.out.println(girls.size());
+  System.out.println(girls.toString());
+  }
+}
