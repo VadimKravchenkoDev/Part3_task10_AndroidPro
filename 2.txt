@@ -1,0 +1,17 @@
+import java.util.*;
+public class MyClass {
+  public static void main(String args[]) {
+    
+    HashMap myCat = new HashMap();
+    
+    myCat.put("Liza", 4);
+    myCat.put("Leo", 2);
+    myCat.put("Sara", 10);
+    
+    myCat.remove("Sara");
+
+    System.out.println(myCat.get("Liza"));
+    System.out.println(myCat.size());
+    System.out.println(myCat.toString());
+  }
+}
